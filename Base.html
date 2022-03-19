@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correction Control</title>
+    <link id="css" rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="style-general.css">
+</head>
+
+<body>
+    <div class="containeur">
+        <div class="top">div : class top <br />
+            <h1>h1</h1>
+            <ul id="tmpPlants" class="tmpExample">
+                <li class="A B tmpExample" id="item.A">li : class =A et B id=item.A</li>
+                <li class="A tmpExample" id="b">li : class=A id=b</li>
+                <li class="B tmpExample" id="c">li : class=B id=c</li>
+            </ul>
+            <footer>footer</footer>
+        </div>
+        <div class="Commentaire">
+            <h3><b>Commentaire</b></h3>
+            <br>
+            <h6>exercice 3</h6>
+            <p>#item.A le probleme vient du point que reli normalement a une classe.</p>
+            <h6>exercice 5</h6>
+            <p>Ne pas oublier la balise br qui se trouve apres le div top. la balise br est donc 1er enfant.</p>
+            <h6>exercice 6</h6>
+            <p>ul:first-child Il oit y avoir un espace entre le ul et :</p>
+            <h6>exercice 7</h6>
+            <p>Merci de passer votre souris sur les balises entourer</p>
+            <h6>exercice 9</h6>
+            <p>Ne pas oublier la balise br qui se trouve apres le div top. la balise h1 est donc 2eme enfant.</p>
+
+        </div>
+    </div>
+
+
+    <div>
+        <h1 class=" general ">
+            Voici la correction pour les selecteur
+        </h1>
+        <button onclick="document.getElementById( 'css').href='style1.css' ">1.Selecteur('ul, li')</button>
+        <button onclick="document.getElementById( 'css').href='style2.css' ">2.Selecteur('li:not(#b)')</button>
+        <button onclick="document.getElementById( 'css').href='style3.css' ">3.Selecteur('#item.A')</button>
+        <button onclick="document.getElementById( 'css').href='style4.css' ">4.Selecteur('.A.B')</button>
+        <button onclick="document.getElementById( 'css').href='style5.css' ">5.Selecteur('.top :first-child')</button>
+        <button onclick="document.getElementById( 'css').href='style6.css' ">6.Selecteur('ul:first-child')</button>
+        <button onclick="document.getElementById( 'css').href='style7.css' ">7.Selecteur('li:not(:hover)')</button>
+        <button onclick="document.getElementById( 'css').href='style8.css' ">8.Selecteur(' li.B + * ')</button>
+        <button onclick="document.getElementById( 'css').href='style9.css' ">9.Selecteur('.top :nth-child(2)')</button>
+        <button onclick="document.getElementById( 'css').href='style10.css' ">10.Selecteur('.top :nth-of-type(1)')</button>
+        <button onclick="document.getElementById( 'css').href='style11.css' ">11.Selecteur('.top :not(:last-child)')</button>
+        <button onclick="document.getElementById( 'css').href='styletest.css' ">Pour faire des Test</button>
+    </div>
+    <div>
+        <img src="code.png " alt="# ">
+    </div>
+    <div>
+        <h1>Pour finir</h1>
+        <p>En cas de probleme le code est a votre disposition. J'ai cree un style test où vous pouvez essayer de nouveaux selectioneurs</p>
+        <p>Les style sont numeroté de 1 à 11 , vous pouvez donc le modifier en rajoutant des espace et autre pour voir les changements</p>
+        <h4>Bonne "revisions" de cette "matière"</h4>
+    </div>
+</body>
+
+
+</html>

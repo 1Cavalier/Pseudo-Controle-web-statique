@@ -1,0 +1,3 @@
+.top :not(:last-child) {
+    border: 1px solid red;
+}

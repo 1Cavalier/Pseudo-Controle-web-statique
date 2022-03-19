@@ -1,0 +1,3 @@
+li:not(#b) {
+    border: 1px solid red;
+}
